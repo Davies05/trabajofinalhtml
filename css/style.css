@@ -1,0 +1,340 @@
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------ESTILOS GENERALES-----------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.titulo h1{
+    background: url(./../aseest/imagenes/h1fondo.jpg);
+    margin: 30px;
+    font-family: fantasy;
+    color: rgb(255, 0, 0);
+} 
+
+.titulo ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+}
+
+.titulo ul li a{
+    background: linear-gradient(to left, rgb(217, 94, 94),rgb(255, 255, 255));
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.titulo ul li a:hover{
+    background-color: rgb(247, 247, 247);
+    color: rgb(255, 255, 255);
+}
+
+.posicion{
+    color: red;
+}
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------ESTILOS INDEX---------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*--------------SECTION UNO-------------------*/
+.portada{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portada .info{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to left, rgb(255, 0, 0),rgb(255, 255, 255));
+}
+
+.portada .imagen{
+    width: 2000px;
+    height: 600px;
+
+}
+
+.imagenportada{
+    margin: 0 auto;
+}
+
+.section-uno{
+    display: flex;
+    margin: 30px;
+}
+
+.article-uno{
+    width: 50%;
+}
+
+.article-dos{
+    width: 50%;
+}
+
+.centro{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: linear-gradient(to left, rgb(255, 0, 0),rgb(255, 255, 255));
+}
+
+.info-uno{
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(to left, rgb(255, 0, 0),rgb(255, 255, 255));
+    margin: 30px;
+}
+
+.info-uno img{
+    padding-right: 20px;
+}
+
+.info-uno p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.tamainfo{
+    width: 300px;
+    height: 300px;
+}
+/*----------------SECTION DOS----------------*/
+.palacio{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 255, 255));
+}
+
+.info-dos{
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(255, 0, 0),rgb(255, 255, 255));
+    margin: 30px;
+}
+
+.info-dos img{
+    padding-right: 20px;
+}
+
+.info-dos p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------ESTILOS FOOTER---------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+.footerimg{
+    width: 100px;
+    height: 100px;
+}
+
+.tamañoico{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 30px;
+    background: linear-gradient(to top left,red,white);
+}
+
+.footerimg{
+   display: flex;
+   margin: auto;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.footerimg img{
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.footerimg p{
+   text-align: center;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+.redes ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin-top: 100px;
+}
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------ESTILOS PRESUPUESTO---------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+
+.body{
+    height: 1000px;
+    background-image:url(./../aseest/imagenes/fondoformu.jpg) ;
+}
+/*------------titulo-------------*/
+.con-titu{
+   text-align: center;
+   font-size: 30px;
+   padding: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-bottom:5px solid rgb(255, 0, 0);
+}
+/*------------Formulario-------------*/
+.sec-formu{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 40px;
+    background:linear-gradient(to left,red,black);
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formu{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.area{
+    margin: 10px;
+    padding: 10px;
+}
+
+.terminos{
+    color: white;
+    margin: 10px;
+}
+
+.terminos a{
+    text-decoration: none;
+    color: white;
+}
+
+.terminos a:hover{
+    color: blue;
+}
+
+.acceps{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    background: linear-gradient(to left,red,white);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*----------------------------------------ESTILOS CONTACTO----------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+.titupresu{
+    margin: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+.contac{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(./../aseest/imagenes/contacfondo.jpg);
+    box-shadow: 0px 10px 20px 20px red;
+}
+.contac img{
+    padding:15px;
+    width: 500px;
+    height: 500px;
+}
+.horario{
+    padding: 20px;
+    border: 1px solid red;
+    height: 120px;
+    margin: 15px;
+    background: linear-gradient(to left, red,white);
+}
+.horario ul{
+    list-style: none;
+    line-height: 20px;
+    text-align: center;
+    font-family:sans-serif;
+}
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*----------------------------------------ESTILOS PRODUCTOS----------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------*/
+.tama{
+    width: 400px;
+    height: 400px;
+}
+.pro_du{
+    display: flex;
+    justify-content: space-around;
+    width: 1500px;
+    flex-wrap: wrap;
+    margin:auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.pro_du article{
+    margin: 10px;
+    border:3px solid black ;
+    padding: 10px;
+    background: linear-gradient(to left,red,white);
+}
+.pro_du article h2{
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
